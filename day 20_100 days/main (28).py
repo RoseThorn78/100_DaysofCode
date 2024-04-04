@@ -1,0 +1,10 @@
+print("List Generator")
+print()
+print("Please enter below a starting number, ending number and how many you would like me to add each time. :)")
+print()
+x = int(input("Starting Number: "))
+y = int(input("Ending Number: "))
+z = int(input("Increment: "))
+print()
+for i in range (x, y + 1, z):
+  print(i)
